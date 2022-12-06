@@ -18,7 +18,7 @@
   const return_to = 'http://localhost:8080/oauth/redirect';
 
   const link = document.getElementById('login');
-  link.href = `${authorize_uri}?client_id=${client_id}&scope=PROFILE:READ&response_type=code&return_to=${return_to}`;
+  link.href = `${authorize_uri}?client_id=${client_id}&scope=PROFILE:READ&scope=ASSETS:READ&response_type=code&return_to=${return_to}`;
 </script>
 
 </body>
